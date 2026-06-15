@@ -79,7 +79,16 @@ Python, Pandas, NumPy, Matplotlib, Seaborn
 
 ```
 seoul-restaurant-sales-analysis/
-├── 2020102590_Term_Project.ipynb   # 전체 분석 코드 및 결과
+├── data/
+│   ├── 서울시 상권분석서비스(추정매출-자치구).csv
+│   ├── 서울시 상권분석서비스(상주인구-자치구).csv
+│   ├── 서울시 상권분석서비스(길단위인구-자치구).csv
+│   └── 서울시 상권분석서비스(소득소비-자치구).csv
+├── notebooks/
+│   ├── hypothesis_1_1.ipynb   # 가설 1-1: 저녁 매출 ↔ 상주 인구
+│   ├── hypothesis_1_2.ipynb   # 가설 1-2: 점심 매출 ↔ 유동 인구
+│   ├── hypothesis_2.ipynb     # 가설 2: 음식점 매출 ↔ 소득
+│   └── hypothesis_3.ipynb     # 가설 3: 음식점 매출 ↔ 카페 매출
 ├── README.md
 ├── .gitignore
 └── LICENSE
